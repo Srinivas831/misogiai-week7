@@ -37,3 +37,4 @@ class Course:
 
     def is_full(self):
         return len(self.enrolled_students) >= self.capacity
+    
